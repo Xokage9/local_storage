@@ -30,17 +30,17 @@
 
 | Часть | Ответственность | Где смотреть |
 |---|---|---|
-| API | HTTP-маршруты и зависимости | [backend/app/api](backend/app/api) |
-| Сервисы | Доступ, файлы, квоты и журнал | [backend/app/services](backend/app/services) |
-| Данные | SQLAlchemy-модели, репозитории и Alembic | [backend/app/models](backend/app/models), [миграции](backend/app/db/migrations) |
-| Интеграции | Keycloak и локальная файловая система | [auth](backend/app/auth), [integrations](backend/app/integrations) |
-| Интерфейс | React и TypeScript | [frontend/src](frontend/src) |
+| API | HTTP-маршруты и зависимости | [backend/app/api](https://github.com/Xokage9/local_storage/tree/main/backend/app/api) |
+| Сервисы | Доступ, файлы, квоты и журнал | [backend/app/services](https://github.com/Xokage9/local_storage/tree/main/backend/app/services) |
+| Данные | SQLAlchemy-модели, репозитории и Alembic | [backend/app/models](https://github.com/Xokage9/local_storage/tree/main/backend/app/models), [миграции](https://github.com/Xokage9/local_storage/tree/main/backend/app/db/migrations) |
+| Интеграции | Keycloak и локальная файловая система | [auth](https://github.com/Xokage9/local_storage/tree/main/backend/app/auth), [integrations](https://github.com/Xokage9/local_storage/tree/main/backend/app/integrations) |
+| Интерфейс | React и TypeScript | [frontend/src](https://github.com/Xokage9/local_storage/tree/main/frontend/src) |
 
 Метаданные хранятся в PostgreSQL, содержимое файлов — на локальном диске. Токены проверяются серверной частью; операции проходят через проверки доступа и сервисы предметной логики.
 
 ## Проверки
 
-В [backend/tests](backend/tests) находятся тесты аутентификации, прав доступа, файлов, папок, хранилищ, квот и ссылок.
+В [backend/tests](https://github.com/Xokage9/local_storage/tree/main/backend/tests) находятся тесты аутентификации, прав доступа, файлов, папок, хранилищ, квот и ссылок.
 
 ## Конфигурация
 
